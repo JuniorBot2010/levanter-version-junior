@@ -1,15 +1,15 @@
 {
-  "name": "levanter",
+  "name": "spider-net-secure-bot",
   "version": "4.0.8",
-  "description": "",
+  "description": "SPIDER-NET SECURE-BOT - Un bot WhatsApp basé sur Levanter",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start . --attach --name levanter",
-    "docker": "pm2-runtime start . --name levanter",
-    "stop": "pm2 stop levanter",
+    "start": "pm2 start . --attach --name spider-net-secure-bot",
+    "docker": "pm2-runtime start . --name spider-net-secure-bot",
+    "stop": "pm2 stop spider-net-secure-bot",
     "postinstall": "node -e \"try { require('sharp') } catch (e) { process.exit(1); }\" || yarn add --ignore-engines sharp@0.33.5"
   },
-  "author": "",
+  "author": "TonNomIci",
   "license": "MIT",
   "dependencies": {
     "audio-decode": "^2.2.2",
